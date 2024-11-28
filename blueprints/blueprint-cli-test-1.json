@@ -1,0 +1,15 @@
+{
+  "name": "blueprint-cli-test-1",
+  "connectionType": "CLI",
+  "blueprintType": "TOPOLOGY_LLDP",
+  "vendorPattern": "(?i)nokia",
+  "template": {
+    "connections": [
+      {
+        "local_interface": "Gig0/1/0",
+        "neighbor_interface": "TenGig0/0/1",
+        "neighbor_device_name": "device_one"
+      }
+    ]
+  }
+}
