@@ -1,0 +1,9 @@
+{
+  "blueprint_type": "TOPOLOGY_LLDP",
+  "connection_type": "NETCONF",
+  "model_pattern": "ios xr",
+  "name": "cisco_ios_xr_6.6.3",
+  "template": "{\"neighbor_id_path\":\"$.Cisco-IOS-XR-ethernet-lldp-oper:lldp.lldp.nodes.node[*].neighbors.devices.device[*].lldp-neighbor[*].device-id\",\"local_interface_id\":\"$.Cisco-IOS-XR-ethernet-lldp-oper:lldp.lldp.nodes.node[*].neighbors.devices.device[*].lldp-neighbor[*].receiving-interface-name\",\"remote_interface_id\":\"$.Cisco-IOS-XR-ethernet-lldp-oper:lldp.lldp.nodes.node[*].neighbors.devices.device[*].lldp-neighbor[*].port-id-detail\"}",
+  "vendor_pattern": "cisco",
+  "version_pattern": "6.6.3"
+}
